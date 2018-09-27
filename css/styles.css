@@ -1,0 +1,37 @@
+<div class="1">
+body {
+    width: 600px;
+    height: 180px;
+    box-sizing: border-box;
+    background-color: grey;
+}
+
+p {
+  border: 5px solid purple;
+}
+
+.img_1 {
+    display: block;
+    margin-left: 17px;
+    margin-right: 17px;
+    position: absolute;
+    right: 30px;
+  }
+
+.img_2 {
+      display: block;
+      margin-left: 17px;
+      margin-right: 17px;
+      position: absolute;
+      left: 30px;
+
+}
+
+.img_3  {
+  display: block;
+  margin-left: 17px;
+  margin-right: 17px;
+  position: absolute;
+  top: 30px;
+}
+</div>
