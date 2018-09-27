@@ -1,13 +1,9 @@
-<div class="1">
+
 body {
     width: 600px;
     height: 180px;
     box-sizing: border-box;
     background-color: grey;
-}
-
-p {
-  border: 5px solid purple;
 }
 
 .img_1 {
