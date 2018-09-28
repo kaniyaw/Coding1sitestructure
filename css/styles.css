@@ -1,21 +1,13 @@
 body {
+  background-color: grey;
+}
 
 p {
   border: 5px solid purple;
-  background color: lightblue;
-
-
-}
-h1 {
-    background-color: lightblue;
-}
-
-div {
-    background-color: white;
 }
 
 p {
-    background-color: lavender;
+    color: pink;
 }
 .img_1 {
   display: block;
@@ -40,5 +32,3 @@ p {
   position: absolute;
   top: 30px;
 }
-
-</div>
