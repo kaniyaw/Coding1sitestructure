@@ -1,25 +1,39 @@
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #40E0D0;
-    font-size: 20px;
-    content: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #40E0D0;
+  font-size: 25px;
+  content: 30px;
 }
 
 li {
-    float: left;
+  float: left;
 }
 
 li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 li a:hover {
-    background-color: #ffbcd9;
+  background-color: #ffbcd9;
+}
+
+.logo {
+  position: absolute;
+  top: 8px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+}
+
+.shoppingbag {
+  position: absolute;
+  top: 8px;
+  left: 1000px;
 }
