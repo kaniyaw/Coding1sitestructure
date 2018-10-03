@@ -37,3 +37,24 @@ li a:hover {
   top: 8px;
   left: 1000px;
 }
+
+h1 {
+  text-align: center;
+}
+
+.img_1 {
+    resize: both;
+    overflow: visible;
+    width: 5px;
+    height: 10px;
+}
+
+.img_2 {
+    resize: both;
+    overflow: auto;
+}
+
+.img-3 {
+    resize: both;
+    overflow: auto;
+}
