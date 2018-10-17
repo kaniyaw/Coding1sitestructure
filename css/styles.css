@@ -38,25 +38,21 @@ li a:hover {
   left: 1000px;
 }
 
-h1 {
-  text-align: center;
-}
-
 .img_1 {
-    resize: both;
-    overflow: visible;
-    width: 5px;
-    height: 10px;
+  resize: both;
+  overflow: visible;
+  width: 5px;
+  height: 10px;
 }
 
 .img_2 {
-    resize: both;
-    overflow: auto;
+  resize: both;
+  overflow: auto;
 }
 
 .img-3 {
-    resize: both;
-    overflow: auto;
+  resize: both;
+  overflow: auto;
 }
 
 .navbar {
@@ -88,7 +84,7 @@ h1 {
   display: none;
   position: absolute;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
