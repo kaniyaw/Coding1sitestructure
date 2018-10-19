@@ -38,23 +38,6 @@ li a:hover {
   left: 1000px;
 }
 
-.img_1 {
-  resize: both;
-  overflow: visible;
-  width: 5px;
-  height: 10px;
-}
-
-.img_2 {
-  resize: both;
-  overflow: auto;
-}
-
-.img-3 {
-  resize: both;
-  overflow: auto;
-}
-
 .navbar {
   overflow: hidden;
 }
@@ -107,8 +90,4 @@ li a:hover {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
-}
-
-#para {
-  text-align: left;
 }
