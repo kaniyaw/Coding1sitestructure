@@ -36,7 +36,7 @@
   <h1>What do you want to know about Enchant Me?</h1>
   <p> Our website focuses on lashes and makeup. We want women to feel amazing. The idea of having your lashes and make up done makes some women happy, and that is the emotion we want you all to feel. If you sign up, you'll be eligible
     to get rewards and this will allow you to get treats or gifts from us. </p>
-  <!-- Slideshow container -->
+
   <div class="slideshow-container">
 
     <!-- Full-width images with number and caption text -->
@@ -47,7 +47,7 @@
 
     <div class="mySlides fade">
       <div class="numbertext">2 / 12</div>
-      <img src="./images/image5.png" height="550" width="35%">
+      <img src="./images/image5.png" height="550" width="1000">
     </div>
 
     <div class="mySlides fade">
@@ -98,27 +98,26 @@
       <div class="numbertext">12 / 12</div>
       <img src="./images/image15.png" height="550" width:"100%">
     </div>
-    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+      <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
   </div>
-  <br>
   <script>
-  var slideIndex = 0;
-   showSlides();
+    var slideIndex = 0;
+    showSlides();
 
-   function showSlides() {
-     var i;
-     var slides = document.getElementsByClassName("mySlides");
-     for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";
-     }
-     slideIndex++;
-     if (slideIndex > slides.length) {
-       slideIndex = 1
-     }
-     slides[slideIndex - 1].style.display = "block";
-     setTimeout(showSlides, 3750); // Change image every 3.75 seconds
-   }
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {
+        slideIndex = 1
+      }
+      slides[slideIndex - 1].style.display = "block";
+      setTimeout(showSlides, 3750); // Change image every 3.75 seconds
+    }
     var slideIndex = 1;
     showDivs(slideIndex);
 

@@ -267,6 +267,13 @@ input[type="text"]:focus {
   color: white;
 }
 
+.slideshow-container {
+    max-width: 2000px;
+    position: relative;
+    margin: auto;
+    object-fit: cover;
+  }
+
 @media all and (max-width: 680px) {
   .icon-button {
     border-radius: 1.6rem;
@@ -288,17 +295,27 @@ input[type="text"]:focus {
     height: 1.6rem;
     line-height: 1.6rem;
     width: 1.6rem;
+  }
 
-    .slideshow-container {
-      max-width: 1000px;
-      position: relative;
-      margin: auto;
+
+    .button {
+      background-color: #40E0D0;
+      color: #40E0D0;
+      border: none;
+      display: inline;
+      text-align: center;
+      float: left;
+      width: 205.6px;
     }
 
-.slidehsow-container {
+    .tab button:hover {
+      background-color: #ffbcd9;
+    }
 
-}
-
+    a:link {
+      color: gold;
+      text-decoration: none;
+    }
 
     @-webkit-keyframes fade {
       from {
