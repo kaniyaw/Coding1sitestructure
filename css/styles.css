@@ -30,9 +30,17 @@ h1 {
   font-weight: bold;
 }
 
+b {
+  line-height: 210%;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
 p {
   font-size: 18px;
-  line-height: 300%;
+  line-height: 210%;
+  margin-left: 90px;
+  margin-right: 90px;
 }
 
 .logo {
@@ -119,7 +127,7 @@ footer {
 
 input[type="text"] {
   width: 100%;
-  border: 2px solid #aaa;
+  border: 2px solid #40E0D0;
   border-radius: 4px;
   margin: 8px 0;
   outline: none;
@@ -129,8 +137,8 @@ input[type="text"] {
 }
 
 input[type="text"]:focus {
-  border-color: dodgerBlue;
-  box-shadow: 0 0 8px 0 dodgerBlue;
+  border-color: #ffbcd9;
+  box-shadow: 0 0 8px 0 #ffbcd9;
 }
 
 .inputWithIcon input[type="text"] {
@@ -146,16 +154,16 @@ input[type="text"]:focus {
   left: 0;
   top: 8px;
   padding: 9px 8px;
-  color: #aaa;
+  color: #40E0D0;
   transition: 0.3s;
 }
 
 .inputWithIcon input[type="text"]:focus+i {
-  color: dodgerBlue;
+  color: #ffbcd9;
 }
 
 .inputWithIcon.inputIconBg i {
-  background-color: #aaa;
+  background-color: #40E0D0;
   color: #fff;
   padding: 9px 4px;
   border-radius: 4px 0 0 4px;
@@ -163,7 +171,18 @@ input[type="text"]:focus {
 
 .inputWithIcon.inputIconBg input[type="text"]:focus+i {
   color: #fff;
-  background-color: dodgerBlue;
+  background-color: #ffbcd9;
+}
+
+.btn-submit {
+    background-color: #40E0D0;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 .mySlides {
