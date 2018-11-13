@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>ENCHANT ME</title>
+  <title>GET LASHES!</title>
   <link href="./css/styles.css" rel="stylesheet">
 </head>
 
@@ -23,7 +23,6 @@
         <a href="./brands.html">Brands</a>
         <a href="./lashes.html">Lashes</a>
         <a href="./fee.html">Fee</a>
-        <a href="./availability.html">Availability</a>
       </div>
     </div>
     </div>
@@ -33,6 +32,58 @@
       <img border="0" alt="My Bag" src="./images/mybag.png" width="60" height="60">
     </a>
   </div>
+  <h1>Lashes, lashes, and more lashes!</h1>
+  <p>speak on the lashes and how it comes with the make up</p>
+
+  <div class="EMcontent EMdisplay-container">
+    <img class="mySlides" src="./images/image36.png" style="height: 550px; width: 500px; display: block;">
+    <img class="mySlides" src="./images/image37.png" style="height: 550px; width: 500px; display: block;">
+    <img class="mySlides" src="./images/image38.png" style="height: 550px; width: 500px; display: block;">
+    <img class="mySlides" src="./images/image39.png" style="height: 550px; width: 500px; display: block;">
+    <div class="btn">
+      <button class="EM-button EM-black EM-display-left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="EM-button EM-black EM-display-right" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+  </div>
+  <script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {
+        slideIndex = 1
+      }
+      slides[slideIndex - 1].style.display = "block";
+      setTimeout(showSlides, 3750); // Change image every 3.75 seconds
+    }
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {
+        slideIndex = 1
+      }
+      if (n < 1) {
+        slideIndex = x.length
+      }
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      x[slideIndex - 1].style.display = "block";
+    }
+  </script>
 </body>
 
 </html>
