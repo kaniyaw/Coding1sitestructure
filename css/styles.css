@@ -175,19 +175,19 @@ input[type="text"]:focus {
 }
 
 .button {
-    background-color: #40E0D0;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 12px;
-    padding: 20px;
-    width: 120px;
-    height: 70px;
+  background-color: #40E0D0;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 12px;
+  padding: 20px;
+  width: 120px;
+  height: 70px;
 }
 
 .button:hover {
@@ -241,7 +241,30 @@ a:link {
   background-color: #ffbcd9;
 }
 
+div.columns {
+  width: 900px;
+}
 
+div.columns div {
+  width: 300px;
+  height: 100px;
+  float: left;
+}
+
+div.blue {
+  background-color: #40E0D0;
+  padding: 30px;
+  margin: 30px;
+}
+
+div.pink {
+  background-color: #ffbcd9;
+  padding: 30px;
+}
+
+div.clear {
+  clear: both;
+}
 
 @-webkit-keyframes fade {
   from {
