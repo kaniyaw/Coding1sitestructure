@@ -286,6 +286,8 @@ div.clear {
   }
 }
 
-/*
-insert explorer webkit
-*/
+-webkit-transform: rotate(45deg); /* WebKit */
+-moz-transform: rotate(45deg); /* Mozilla */
+-o-transform: rotate(45deg); /* Opera */
+-ms-transform: rotate(45deg); /* Internet Explorer */
+transform: rotate(45deg); /* CSS3 */                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
