@@ -8,7 +8,7 @@
 
 <body>
   <ul>
-    <div class="logo">
+    <div class="EMlogo">
       <li><a class="active" href="./index.html"><img src="./images/enchantme.png" alt="Enchant Me" width="160" height="100"></a>
     </div>
     <li><a href="./about.html">About</a></li>
@@ -16,8 +16,8 @@
     <li><a href="./signup.html">Sign Up</a></li>
     <li><a href="./rewards.html">Rewards</a></li>
     <div class="dropdown">
-      <button class="dropbtn">Categories
-        <i class="fa fa-caret-down"></i>
+      <button class="EMdropdown">Categories
+        <i class="EM"></i>
       </button>
       <div class="dropdown-content">
         <a href="./brands.html">Brands</a>
@@ -37,19 +37,18 @@
     to get rewards and this will allow you to get treats or gifts from us. You will not regret it! </p>
 
   <div class="EMcontent EMdisplay-container">
-    <img class="mySlides" src="./images/image4.png" style="height: 550px; width: 500px; display: block;">
-    <img class="mySlides" src="./images/image5.png" style="height: 550px; width: 500px; display: block;">
-    <img class="mySlides" src="./images/image6.png" style="height: 550px; width: 500px; display: block;">
-    <img class="mySlides" src="./images/image7.png" style="height: 550px; width: 500px; display: block;">
-    <img class="mySlides" src="./images/image8.png" style="height: 550px; width: 500px; display: block;">
-    <img class="mySlides" src="./images/image9.png" style="height: 550px; width: 500px; display: block;">
-    <img class="mySlides" src="./images/image10.png" style="height: 550px; width: 500px; display: block;">
-    <img class="mySlides" src="./images/image11.png" style="height: 550px; width: 500px; display: block;">
-    <img class="mySlides" src="./images/image12.png" style="height: 550px; width: 500px; display: block;">
-    <img class="mySlides" src="./images/image13.png" style="height: 550px; width: 500px; display: block;">
-    <img class="mySlides" src="./images/image14.png" style="height: 550px; width: 500px; display: block;">
-    <img class="mySlides" src="./images/image15.png" style="height: 550px; width: 500px; display: block;">
-    <div class="btn">
+    <img class="slideshow" src="./images/image4.png" style="height: 550px; width: 500px; display: block;">
+    <img class="slideshow" src="./images/image5.png" style="height: 550px; width: 500px; display: block;">
+    <img class="slideshow" src="./images/image7.png" style="height: 550px; width: 500px; display: block;">
+    <img class="slideshow" src="./images/image8.png" style="height: 550px; width: 500px; display: block;">
+    <img class="slideshow" src="./images/image9.png" style="height: 550px; width: 500px; display: block;">
+    <img class="slideshow" src="./images/image10.png" style="height: 550px; width: 500px; display: block;">
+    <img class="slideshow" src="./images/image11.png" style="height: 550px; width: 500px; display: block;">
+    <img class="slideshow" src="./images/image12.png" style="height: 550px; width: 500px; display: block;">
+    <img class="slideshow" src="./images/image13.png" style="height: 550px; width: 500px; display: block;">
+    <img class="slideshow" src="./images/image14.png" style="height: 550px; width: 500px; display: block;">
+    <img class="slideshow" src="./images/image15.png" style="height: 550px; width: 500px; display: block;">
+    <div class="mybutton">
       <button class="EM-button EM-black EM-display-left" onclick="plusDivs(-1)">&#10094;</button>
       <button class="EM-button EM-black EM-display-right" onclick="plusDivs(1)">&#10095;</button>
     </div>
@@ -60,7 +59,7 @@
 
     function showSlides() {
       var i;
-      var slides = document.getElementsByClassName("mySlides");
+      var slides = document.getElementsByClassName("slideshow");
       for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
       }
@@ -80,7 +79,7 @@
 
     function showDivs(n) {
       var i;
-      var x = document.getElementsByClassName("mySlides");
+      var x = document.getElementsByClassName("slideshow");
       if (n > x.length) {
         slideIndex = 1
       }

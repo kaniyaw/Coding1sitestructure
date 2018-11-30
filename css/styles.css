@@ -93,7 +93,7 @@ p {
   margin-right: 90px;
 }
 
-.logo {
+.EMlogo {
   position: absolute;
   top: 8px;
   right: 0;
@@ -116,7 +116,7 @@ p {
   overflow: hidden;
 }
 
-.dropdown .dropbtn {
+.dropdown .EMdropdown {
   border: none;
   outline: none;
   padding: 14px 16px;
@@ -127,7 +127,7 @@ p {
   margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover, .dropdown:hover .EMdropdown {
   background-color: #ffbcd9;
 }
 
@@ -248,7 +248,7 @@ input[type="text"]:focus {
   text-decoration: none;
 }
 
-.mySlides {
+.slideshow {
   top: 200px;
   bottom: 0;
   left: 0;
@@ -268,7 +268,7 @@ input[type="text"]:focus {
   width: 205.6px;
 }
 
-.btn {
+.mybutton {
   text-align: center;
 }
 
@@ -334,8 +334,4 @@ div.clear {
   to {
     opacity: 1
   }
-}
-
-.example {
-  -webkit-transform: value;
 }
