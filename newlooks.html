@@ -8,7 +8,7 @@
 
 <body>
   <ul>
-    <div class="logo">
+    <div class="EMlogo">
       <li><a class="active" href="./index.html"><img src="./images/enchantme.png" alt="Enchant Me" width="160" height="100"></a>
     </div>
     <li><a href="./about.html">About</a></li>
@@ -16,7 +16,7 @@
     <li><a href="./signup.html">Sign Up</a></li>
     <li><a href="./rewards.html">Rewards</a></li>
     <div class="dropdown">
-      <button class="dropbtn">Categories
+      <button class="EMdropdown">Categories
         <i class="fa fa-caret-down"></i>
       </button>
       <div class="dropdown-content">
@@ -93,7 +93,7 @@
 
     function showSlides() {
       var i;
-      var slides = document.getElementsByClassName("mySlides");
+      var slides = document.getElementsByClassName("slideshow");
       for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
       }
@@ -113,7 +113,7 @@
 
     function showDivs(n) {
       var i;
-      var x = document.getElementsByClassName("mySlides");
+      var x = document.getElementsByClassName("slideshow");
       if (n > x.length) {
         slideIndex = 1
       }
