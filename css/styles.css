@@ -1,8 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
+/*CSS reset */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -47,7 +43,7 @@ table {
 	border-spacing: 0;
 }
 
-
+/* Navbar and EMdropdown */
 ul {
   list-style-type: none;
   margin: 0;
@@ -58,6 +54,7 @@ ul {
   content: 30px;
 }
 
+/* Navbar */
 li {
   float: left;
 }
@@ -74,18 +71,21 @@ li a:hover {
   background-color: #ffbcd9;
 }
 
+/* Heading */
 h1 {
   text-align: center;
   font-size: 40px;
   font-weight: bold;
 }
 
+/* Paragraph for Index Page */
 b {
   line-height: 210%;
   margin-left: 90px;
   margin-right: 90px;
 }
 
+/* Paragraph for All Pages */
 p {
   font-size: 18px;
   line-height: 210%;
@@ -93,6 +93,7 @@ p {
   margin-right: 90px;
 }
 
+/* Logo Displayed on Each Page */
 .EMlogo {
   position: absolute;
   top: 8px;
@@ -101,11 +102,13 @@ p {
   height: 100px;
 }
 
+/* Shoppingbag Displayed on Each Page */
 .shoppingbag {
   position: absolute;
   top: 8px;
   left: 1000px;
 }
+
 
 .navbar {
   overflow: hidden;
