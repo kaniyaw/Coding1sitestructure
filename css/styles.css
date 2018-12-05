@@ -68,7 +68,7 @@ li a {
 }
 
 li a:hover {
-  background-color: #ffbcd9;
+  background-color: none;
 }
 
 /* Heading */
@@ -96,7 +96,7 @@ p {
 /* Logo Displayed on Each Page */
 .EMlogo {
   position: absolute;
-  top: 8px;
+  bottom: 880px;
   right: 0;
   width: 200px;
   height: 100px;
@@ -106,7 +106,7 @@ p {
 .shoppingbag {
   position: absolute;
   top: 8px;
-  left: 1000px;
+  left: 1650px;
 }
 
 
