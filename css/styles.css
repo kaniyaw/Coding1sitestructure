@@ -52,7 +52,7 @@ p {
 /* Logo Displayed on Each Page */
 .EMlogo {
   position: absolute;
-  bottom: 815px;
+  bottom: 870px;
   right: 0;
   width: 200px;
   height: 100px;
@@ -61,7 +61,7 @@ p {
 /* Shoppingbag Displayed on Each Page */
 .shoppingbag {
   position: absolute;
-  top: 8px;
+  top: 23px;
   left: 1650px;
 }
 
@@ -119,6 +119,7 @@ p {
 .column {
   float: left;
   padding: 25px;
+  align-content: center;
 }
 
 .row::after {
